@@ -1,11 +1,11 @@
 package 포켓몬사냥230211;
 
 public class GameThread2 extends Thread {
-    private Pikachu pikachu;
-    private Squirtle squirtle;
-    private Pantom pantom;
+    private Pokemon pikachu;
+    private Pokemon squirtle;
+    private Pokemon pantom;
 
-    public GameThread2(Pikachu pikachu, Squirtle squirtle, Pantom pantom) {
+    public GameThread2(Pokemon pikachu, Pokemon squirtle, Pokemon pantom) {
         this.pikachu = pikachu;
         this.squirtle = squirtle;
         this.pantom = pantom;
